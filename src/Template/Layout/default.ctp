@@ -29,12 +29,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css('base.css') ?>
-    <?= $this->Html->css('cake.css') ?>
-    
-    <?= $this->Html->css('bootstrap.css') ?>
-    <?= $this->Html->css('styles.css') ?>
-    
-    <?= $this->Html->script(['jquery.js', 'popper.js', 'bootstrap.js' 'scripts.js']) ?>
+    <?= $this->Html->css('cake.css') ?>     
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
